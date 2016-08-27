@@ -588,9 +588,8 @@ padding-right: 0;
         margin-top: 0em;
     }
     
-   .about img { 
-       margin-top: 100%;
-       margin-left: 5%
+    .abouticon {
+        height: 75%
     }
    
   @media only screen and (max-width: 820px) {
@@ -915,12 +914,14 @@ article {
         right: 0em;
         
     }
-.about img {
-    display: inline-block;
-    margin: 0 0 2em 7em;
-    width: 300px;
-    height: 300;
-      
+    .abouticon {
+        margin-top: 0;
+        height: 35%;
+    }
+    
+    .abouticon::after {
+        width: 300px;
+        height: 300px;
     }
     
     .par {
@@ -1776,12 +1777,9 @@ article {
     }
     
         
-      .about img {
-    display: inline-block;
-    margin: 0 0 2em -1em ;
-    width: 300px;
-    height: 300px;
-      
+      .abouticon::after {
+        width: 250px;
+        height: 250px;
     }
         
          .imgser {

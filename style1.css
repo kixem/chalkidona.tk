@@ -98,7 +98,7 @@ ul {
     padding-top: 0;
     padding-bottom: 0;
  
-    border-bottom: 2px solid ##bb4665;
+    border-bottom: 2px solid #bb4665;
 }
 
 .header-nav-logo {
@@ -279,7 +279,7 @@ padding-left:  53px;
     text-align: center;
     padding: 50px 0;
     margin: 0;
-    background-color: #bb4665;
+    background: #bb4665;
     height: 530px;
     box-shadow: 0 1px 4px rgba(0,0,0,.4);
 }
@@ -682,6 +682,32 @@ html {
 .par {
     margin-bottom: 10%;
     margin-top: 15%;
+    
+}
+
+.abouticon {
+    margin-top: 15%;
+    height: 55%;
+    position: relative;
+    
+}
+
+.abouticon::after {
+    content: "";
+    display: block;
+    height: 350px;
+    width: 350px;
+    background: url('img/home-ill-platform.png') no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 0%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    opacity: 0.8;
+    -webkit-filter: hue-rotate(80deg); 
+    filter: hue-rotate(90deg);
 }
 
 .about h3 {
@@ -702,13 +728,16 @@ html {
     text-align: justify;
 }
 
+
 .about img {
     height: 40%;
     margin: 45% 10% 0% 20%;
     opacity: 0.8;
-    -webkit-filter: hue-rotate(80deg); /* Chrome, Safari, Opera */
+    -webkit-filter: hue-rotate(80deg); 
     filter: hue-rotate(90deg);
+    display: none;
 }
+
 
 
 
