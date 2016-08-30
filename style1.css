@@ -1,4 +1,18 @@
 
+@font-face {
+    font-family: Nougat-ExtraBlack;
+    src: url(fonts/Nougat-ExtraBlack.ttf);
+}
+.header-nav-logo img {
+    font-family: Nougat-ExtraBlack;
+    width: 400px;
+    height: 100px;
+    margin-top: -10px;
+}
+
+
+
+
 *,
 *:before,
 *:after {
